@@ -1,0 +1,15 @@
+<Configuration status="info">
+    <Appenders>
+        <LogzioAppender name="Logzio">
+            <logzioToken>$ekxeFkGlviHrjiMGREjHbdiMWxlkNdwt</logzioToken>
+            <logzioUrl>https://listener.logz.io:8071</logzioUrl>
+            <logzioType>java-application</logzioType>
+        </LogzioAppender>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Logzio"/>
+        </Root>
+    </Loggers>
+</Configuration>
